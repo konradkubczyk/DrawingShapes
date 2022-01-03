@@ -17,7 +17,7 @@ class GeometricSystem:
   def refresh_color(self):
     if self.random_color_mode:
       turtle.pencolor = turtle.color(randint(100, 220), randint(100, 220), randint(100, 220))
-      turtle.fillcolor = turtle.pencolor;
+      turtle.fillcolor = turtle.pencolor
   def draw_orbit(self, radius):
     self.refresh_color()
     turtle.penup()
